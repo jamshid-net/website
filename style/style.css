@@ -1,0 +1,404 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto';
+    
+    
+   
+    
+}
+
+
+
+
+
+.homePage
+{
+  
+    
+   
+    max-width: 1728px;
+    max-height: 1250px;
+    width: 100%;
+    height: 1250px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../image/What-is-DevOps-Automation.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 60px;
+    
+    
+}
+@media only screen and (max-width : 920px)
+{
+    .header
+    {
+        width: 96%;
+    }
+
+}
+@media only screen and (max-width : 420px)
+{
+    .header
+    {
+        width: 100%;
+    }
+
+}
+.nav ul 
+{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.nav-link
+{
+    color: #fff !important;
+}
+.logo h1 
+{
+    color: #fff;
+    
+
+}
+
+.logo h1::before
+{
+    content: '</>';
+}
+.dev
+{
+    position: relative;
+    top: 350px;
+    color: #fff;
+    height: 150px;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+@media only screen and (max-width : 768px) {
+    .homePage
+    {
+        height: 600px;
+    }
+    .dev
+    {
+        top: 100px;
+    }
+
+}
+.dev h1 
+{
+    text-transform: uppercase;
+    
+}
+@media only screen and (max-width : 420px)
+{
+    .dev h1 
+    {
+        font-size: 30px;
+    }
+}
+.navbar-toggler
+{
+    background-color: #fff !important;
+    color: #fff !important;
+}
+@media only screen and (max-width : 768px) {
+        .logo h1 
+        {
+            font-size: 22px;
+
+        }
+        .great_nav ul li a 
+        {
+            padding: 5px 10px;
+        }
+        .great_nav ul li
+        {
+            margin: 0;
+            
+        }
+   
+}
+.cards
+{
+    
+    padding: 100px 50px;
+    background-color: #fff;
+    
+    height: 780px;
+    display: flex;
+    max-width: 1728px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+    
+}
+@media only screen and (max-width : 1366px) {
+    .cards{
+        height: auto;
+    }
+
+}
+.cards h1 
+{
+    margin-bottom: 40px;
+
+}
+.cards h1 span
+{
+    color: rgb(173, 173, 8);
+}
+.cards_inner
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.icon 
+{
+    width: 380px;
+    height: fit-content;
+    margin: 10px 15px;
+    
+    
+    text-align: center;
+}
+.icon h3 
+{
+    text-transform: uppercase;
+}
+@media only screen and (max-width : 420px) {
+    .icon
+    {
+        width: 290px;
+    }
+
+}
+.icon i 
+{
+    font-size: 45px;
+}
+.icon h3 
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.great_work
+{
+    max-width: 1728px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.great_work h1 
+{
+    text-transform: uppercase;
+}
+.great_work h1 span
+{
+    color: rgb(173, 173, 8);
+
+}
+.great_nav ul 
+{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+}
+.great_nav
+{
+    margin: 25px 0;
+
+}
+.great_nav ul li
+{
+    margin: 0 10px;
+}
+.great_nav ul li a 
+{
+    color: #000;
+    display: block;
+    
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.great_nav ul li a:hover
+{
+    color: rgb(173, 173, 8);
+}
+@media only screen and (max-width : 768px) {
+    
+    .great_nav ul li a 
+    {
+        padding: 5px 10px;
+    }
+    .great_nav ul li
+    {
+        margin: 0;
+        
+    }
+
+}
+@media only screen and (max-width : 420px)
+{
+    .great_nav ul 
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.great_photos
+{
+  
+    max-width: 1728px;
+  
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+}
+.great_photos_img
+{
+    width: 420px;
+    height: 230px;
+    
+    background-image: url(../image/great1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.great_photos_img:nth-child(2)
+{
+    background-image: url(../image/great2.jpg);
+}
+.great_photos_img:nth-child(3)
+{
+    background-image: url(../image/great3.jpg);
+}
+.great_photos_img:nth-child(4)
+{
+    background-image: url(../image/great4.jpg);
+}
+.great_photos_img:nth-child(5)
+{
+    background-image: url(../image/great5.jpg);
+}
+.great_photos_img:nth-child(6)
+{
+    background-image: url(../image/great6.jpg);
+}
+.great_photos_img:nth-child(7)
+{
+    background-image: url(../image/great7.jpg);
+}
+.great_photos_img:nth-child(8)
+{
+    background-image: url(../image/great8.jpg);
+}
+
+.footer
+{
+    max-width: 1728px;
+    width: 100%;
+    height: 300px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../image/footer.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-top: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.footer_inner
+{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.counter
+{
+    font-size: 50px;
+}
+
+@media only screen and (max-width : 620px)
+{
+    .footer
+    {
+        flex-direction: column;
+        height: auto;
+    }
+
+}
+@media only screen and (max-width : 420px)
+{
+
+    .great_photos_img
+    {
+        width: 300px;
+    }
+
+    .cards h1 
+    {
+        font-size: 25px;
+    }
+}
